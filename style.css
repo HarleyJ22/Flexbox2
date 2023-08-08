@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 nav {
     position: absolute;
@@ -32,4 +33,40 @@ nav .section {
 nav .footer {
     display:flex;
     flex-direction: column;
+=======
+
+nav {
+    position: absolute;
+    margin:10px;
+    padding: 10px;
+    width: 200px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    background-color: violet;
+    border-right: 5px solid black ;
+    border-left: 5px solid black ;
+    border-top: 5px solid black ;
+    border-bottom: 5px solid black ;
+}
+
+nav .section {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    text-decoration: none;
+    color: #2b2b2b;
+    transition-property: color;
+    transition-duration: 0,3s;
+}
+.section:hover {
+    color: #2b2bb2;
+} 
+
+nav .footer {
+    display:flex;
+    flex-direction: column;
+>>>>>>> 9e4dd28b10bbe4f219f6f640a783d72a9cc87530
 }
